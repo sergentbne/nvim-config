@@ -29,6 +29,7 @@ local config = {
 			typescript = { "prettier" },
 			bash = { "shfmt" },
 			nix = { "nixfmt" },
+			json = { "jq" },
 		},
 	},
 }
