@@ -8,7 +8,7 @@ local config = {
 		vim.lsp.enable("lua_ls")
 		vim.lsp.enable("rust_analyzer")
 		vim.lsp.enable("basedpyright")
-		vim.lsp.enable("tsgo")
+		vim.lsp.enable("typescript")
 		vim.lsp.enable("ruff")
 		vim.lsp.enable("nixd")
 		vim.lsp.enable("clangd")
