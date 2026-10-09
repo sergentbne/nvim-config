@@ -12,5 +12,6 @@ return {
 	require("plugins.blink_pairs"),
 	require("plugins.venv-selector"),
 	require("plugins.todo-comment"),
-	require("plugins.trouble")
+	require("plugins.trouble"),
+	require("plugins.tiny-inline-diagnostic"),
 }
