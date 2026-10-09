@@ -34,5 +34,5 @@ local config = {
 			desc = "Quickfix List (Trouble)",
 		},
 	},
-}}
+}
 return config
