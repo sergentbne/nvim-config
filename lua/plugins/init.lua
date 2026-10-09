@@ -11,5 +11,6 @@ return {
 	-- require("plugins.blink_indent"),
 	require("plugins.blink_pairs"),
 	require("plugins.venv-selector"),
-	require("plugins.todo-comment")
+	require("plugins.todo-comment"),
+	require("plugins.trouble")
 }
