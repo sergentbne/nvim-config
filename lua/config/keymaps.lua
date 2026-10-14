@@ -15,3 +15,8 @@ vim.keymap.set("n", "<leader>n", function()
 	vim.api.nvim_open_tabpage(0, true, {})
 	require("mini.files").open()
 end, { desc = "Open file in [N]ew tab" })
+
+vim.keymap.set("n", "<leader>tu", function()
+	local config = vim.diagnostic.config()
+	vim.diagnostic.config({ underline = not config.underline })
+end, { desc = "[T]oggle [U]nderline for diagnostics" })
