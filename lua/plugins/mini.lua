@@ -13,6 +13,11 @@ local config = {
 		vim.keymap.set("n", "<leader>e", function()
 			require("mini.files").open()
 		end, { desc = "MiniFiles: Open browser" })
+		require('mini.tabline').setup({
+			format = function(buf_id, label)
+				return MiniTabline.default_format(buf_id, label)
+			end,
+		})
 	end,
 }
 return config
