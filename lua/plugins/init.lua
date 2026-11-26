@@ -8,7 +8,7 @@ return {
 	require("plugins.theme"),
 	require("plugins.mini"),
 	require("plugins.blink_cmp"),
-	-- require("plugins.blink_indent"),
+	require("plugins.tabby"),
 	require("plugins.blink_pairs"),
 	require("plugins.todo-comment"),
 	require("plugins.trouble"),
